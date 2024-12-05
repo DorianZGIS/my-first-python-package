@@ -1,1 +1,1 @@
-from hello import hello
+from dorianpy.hello import hello
