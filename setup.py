@@ -13,7 +13,7 @@ except FileNotFoundError:
 # Metadata
 setup(
   name = "dorianpy",
-  version = 0.0.0.9000,
+  version = "0.0.0.9000",
   author = "dorian",
   author_email = "Type here your email",
   description = "An incredibly amazing package",
