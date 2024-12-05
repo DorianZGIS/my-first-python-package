@@ -1,3 +1,5 @@
+from emoji import emojize
+
 def hello(username = "anon"):
   """Write here a title of your function
   
@@ -18,4 +20,4 @@ def hello(username = "anon"):
   hello(dorian)
   Hello dorian! Welcome to the best python Python package in the entire universe!
   """
-  print("Hello ", username, "! Welcome to the best python Python package in the entire universe!", sep = "")
+  print("Hello ", username, emojize(":wave:"), "! Welcome to the best python Python package in the entire universe!", sep = "")
