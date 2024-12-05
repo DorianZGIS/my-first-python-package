@@ -15,6 +15,7 @@ def hello(username = "anon"):
   
   Examples
   --------
-  >>> Give here an example of how to use the function.
+  hello(dorian)
+  Hello dorian! Welcome to the best python Python package in the entire universe!
   """
   print("Hello ", username, "! Welcome to the best python Python package in the entire universe!", sep = "")
